@@ -17,8 +17,6 @@ else
 	exit
 	fi
 fi
-
-cat -n /etc/issue |grep 1 |cut -d' ' -f6,7,8 |sed 's/1//' |sed 's/	//' > /etc/so 
 ip=$(wget -qO- ipv4.icanhazip.com)
 clear
 echo -e "\033[1;31m-----> \033[01;37mMEGATÚNEL VPS\033[0m"
